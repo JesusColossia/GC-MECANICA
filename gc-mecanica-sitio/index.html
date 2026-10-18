@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="icon" href="logo.png">
+  <title>GC Mecánica | Servicio Automotriz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,800;1,900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="wrap">
+      <a href="#inicio" class="brand">
+        <img src="logo.png" alt="Logo GC Mecánica">
+        GC Mecánica
+      </a>
+      <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a href="#contacto" class="btn">Agendar cita</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="wrap">
+        <div>
+          <h1>GC</h1>
+          <h2>Mecánica</h2>
+          <div class="subtitle">Servicio automotriz</div>
+          <div class="slogan">Rendimiento, seguridad y confianza</div>
+          <div class="cta">
+            <a class="btn" href="#contacto">Solicitar cotización</a>
+            <a class="btn ghost" href="#servicios">Ver servicios</a>
+          </div>
+        </div>
+        <img src="logo.png" alt="Caja de herramientas GC Mecánica">
+      </div>
+    </section>
+
+    <section id="servicios">
+      <div class="wrap">
+        <h2 class="title">Nuestros <span>servicios</span></h2>
+        <p class="lead">Cuidamos tu vehículo con refacciones de calidad y trabajo transparente.</p>
+
+        <div class="grid">
+          <article class="card">
+            <div class="icon">🔧</div>
+            <h3>Mantenimiento</h3>
+            <p>Cambio de aceite, filtros y revisión de niveles para mantener tu auto al día.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🛑</div>
+            <h3>Frenos</h3>
+            <p>Balatas, discos, tambores y líquido de frenos. Tu seguridad es primero.</p>
+          </article>
+          <article class="card">
+            <div class="icon">⚙️</div>
+            <h3>Suspensión y dirección</h3>
+            <p>Amortiguadores, rótulas, terminales y alineación para un manejo firme.</p>
+          </article>
+          <article class="card">
+            <div class="icon">📟</div>
+            <h3>Diagnóstico</h3>
+            <p>Escáner computarizado para detectar fallas con precisión.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🔋</div>
+            <h3>Sistema eléctrico</h3>
+            <p>Batería, alternador, marcha y luces en perfecto funcionamiento.</p>
+          </article>
+          <article class="card">
+            <div class="icon">❄️</div>
+            <h3>Aire acondicionado</h3>
+            <p>Revisión, carga de gas y reparación para viajar con comodidad.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt" id="nosotros">
+      <div class="wrap">
+        <h2 class="title">Por qué <span>elegirnos</span></h2>
+        <p class="lead">Un taller en el que puedes confiar de principio a fin.</p>
+
+        <div class="why">
+          <div>
+            <h3>Rendimiento</h3>
+            <p>Dejamos tu vehículo funcionando como debe, con trabajo bien hecho.</p>
+          </div>
+          <div>
+            <h3>Seguridad</h3>
+            <p>Revisamos cada detalle para que manejes tranquilo en todo momento.</p>
+          </div>
+          <div>
+            <h3>Confianza</h3>
+            <p>Te explicamos qué necesita tu auto y cuánto cuesta, sin sorpresas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="wrap">
+        <h2 class="title">Agenda tu <span>cita</span></h2>
+        <p class="lead">Déjanos tus datos y te contactamos para confirmar.</p>
+
+        <div class="contact">
+          <div class="info">
+            <p><b>Teléfono / WhatsApp</b>664 308 3890</p>
+            <p><b>Dirección</b>Carretera Libre Tijuana-Tecate Km 10 Fracc. El Refugio, Quintas Campestre, 22253 Redondo, B.C.</p>
+            <p><b>Horario</b>Lun a Vie 9:00 – 18:00 · Sáb 9:00 – 14:00</p>
+            <p><b>Redes</b>@gcmecanica</p>
+          </div>
+
+          <form id="booking-form">
+            <input name="nombre" placeholder="Tu nombre" required>
+            <input name="tel" type="tel" placeholder="Teléfono" required>
+            <input name="auto" placeholder="Marca, modelo y año del vehículo">
+            <select name="servicio">
+              <option>Mantenimiento</option>
+              <option>Frenos</option>
+              <option>Suspensión y dirección</option>
+              <option>Diagnóstico</option>
+              <option>Sistema eléctrico</option>
+              <option>Aire acondicionado</option>
+              <option>Otro</option>
+            </select>
+            <textarea name="mensaje" rows="3" placeholder="Cuéntanos qué necesita tu auto"></textarea>
+            <button class="btn" type="submit">Enviar por WhatsApp</button>
+            <div class="form-ok" id="form-ok">¡Listo! Se abrirá WhatsApp para enviar tu mensaje.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>© 2026 GC Mecánica · Servicio automotriz · Rendimiento, seguridad y confianza</footer>
+
+  <a class="whatsapp-float" id="whatsapp-float" aria-label="WhatsApp">💬</a>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
